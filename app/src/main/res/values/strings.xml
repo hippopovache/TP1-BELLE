@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">TP1-BELLE</string>
+    <string name="app_name" translatable="false">TP1-BELLE</string>
     <string name="text2">Second activity</string>
     <string name="button_second">GOTO second activity</string>
+    <string name="textVar" translatable="false"></string>
+    <string name="typeText">Type text</string>
 </resources>

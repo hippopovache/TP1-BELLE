@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text2">Deuxième activitée</string>
+    <string name="button_second">Aller deuxième activité</string>
+    <string name="typeText">écrivez du texte</string>
+</resources>
