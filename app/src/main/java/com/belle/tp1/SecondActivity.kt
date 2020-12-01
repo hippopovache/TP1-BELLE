@@ -1,47 +1,41 @@
 package com.belle.tp1
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
-
-    private var button: Button? = null;
-
+class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_second)
 
-        button = findViewById(R.id.button_second)
-
-        Log.d("mainActivity", "onCreate")
+        Log.d("secondActivity", "onCreate")
     }
 
     override fun onStart() {
         super.onStart()
-        Log.d("mainActivity", "onStart")
+        Log.d("secondActivity", "onStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d("mainActivity", "onResume")
+        Log.d("secondActivity", "onResume")
         //Mieux pour le projet41 de mettre les appels ajax ici
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d("mainActivity", "onPause")
+        Log.d("secondActivity", "onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d("mainActivity", "onStop")
+        Log.d("secondActivity", "onStop")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d("mainActivity", "onDestroy")
+        Log.d("secondActivity", "onDestroy")
     }
 }
